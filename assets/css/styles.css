@@ -1,0 +1,23 @@
+.bg-beige {
+    background-color: #ffebcd;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-brown {
+    color: #800000;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+/* .flex-content-start {
+    justify-content: flex-start;
+} */
+
+.text-red-100{
+    color:#d03333;
+}
