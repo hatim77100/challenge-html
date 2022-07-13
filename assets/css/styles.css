@@ -1,23 +1,95 @@
 .bg-beige {
-    background-color: #ffebcd;
+  background-color: #ffebcd;
 }
-
+/*  TEXT COLOR*/
 .text-black {
-    color: #000000;
+  color: #000000;
 }
 
 .text-brown {
-    color: #800000;
+  color: #800000;
 }
 
 .text-red {
-    color: #ff0000;
+  color: #ff0000;
 }
 
 /* .flex-content-start {
     justify-content: flex-start;
 } */
 
-.text-red-100{
-    color:#d03333;
+.text-red-100 {
+  color: #d03333;
+}
+
+/* DISPLAY */
+
+.gride {
+  display: grid;
+}
+
+.grid-cols-2 {
+    grid-template-columns: 25% 75%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pm-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.my-40 {
+  margin-top: 10rem;  
+  margin-bottom: 10rem;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.pr-8 {
+    padding-right: 2rem;
 }
